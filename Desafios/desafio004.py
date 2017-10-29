@@ -1,0 +1,11 @@
+print ('===== DESAFIO 04 =====')
+#Mostre todas as informações sobre o tipo de dado inserido
+var = input('Digite algo: ')
+print('O tipo primitivo é {}' .format(type(var)))
+print ('Só tem espaços? {}' .format(var.isspace()))
+print ('É um numero? {}' .format(var.isnumeric()))
+print ('É alfabetico? {}' .format(var.isalpha()))
+print ('É alfanumerico? {}' .format(var.isalnum()))
+print ('Está em maiusculo? {}' .format(var.isupper()))
+print ('Está em minusculo? {}' .format(var.islower()))
+print ('Está capitalizado? {}' .format(var.istitle()))
